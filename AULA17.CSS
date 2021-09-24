@@ -1,0 +1,52 @@
+header {
+    display: block;
+    height: 200px;
+}
+
+@keyframes movimentoBola {
+    0% {opacity: 0%; }
+    25% { opacity: 100%; transform: translateX(400px) scalex(1) scaleY(1) rotate(15deg);border-radius: 50 }
+    100% {transform: rotate(180deg);}
+    0% {transform: rotate(180deg);}
+}
+
+@keyframes movimentoWhatsapp {
+    0% {
+        transform: scale(1.4);
+        transform: rotate(45deg);
+    }
+    50% {transform: translateX(0); transform: translate}
+
+    100% {
+        transform: scale(1.4);
+        transform: rotate(45deg);
+    }
+}
+
+.bola {
+    animation: movimentoBola 10s infinite;
+}
+
+.whatsapp {
+    transform: scale(1)
+}
+.whatsapp:hover {
+    animation: movimentoWhatsapp 2s infinite;
+}
+
+.facebook {
+    background: url('https://www.bing.com/th?id=AMMS_dbf45ebd6b4bf7de1e499c0277c519ca&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&o=6&cdv=1&pid=16.1');
+    background-size: cover;
+    height:100px;
+    width:100px;
+    display: block;
+}
+
+.facebook:hover {
+    background: url('https://www.bing.com/th?id=AMMS_dbf45ebd6b4bf7de1e499c0277c519ca&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&o=6&cdv=1&pid=16.1');
+    background-size: cover;
+    height:100px;
+    width:270px;
+    display: block;
+    transform: translate(100px, 100px);
+}
