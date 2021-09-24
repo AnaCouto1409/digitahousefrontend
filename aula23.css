@@ -1,51 +1,57 @@
-*{
-    background-color: rgb(255, 152, 16);
-    color: rgb(5, 3, 3);
-    font-family: Arial, Helvetica, sans-serif;
-}
-body{
-    background-image: url(file:///C:/Users/aninh/OneDrive/Imagens/Saved%20Pictures/logistica%20reversa.jpg.jpg);
-    background-repeat: no-repeat;
-}
-#id{
-    background-color: black;
-    color: rgb(235, 16, 16);
-    padding: 5px 5px 5 px 5px;
-    border: 5px orange solid;
-    border-radius: 3px solid #7e459b;
-    height: 10px;
-    margin: 10px;
-}
-#caixa-banner{
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: orange;
-    font-weight: 3rem;
-    background-color: #7E459B;
-    padding: 8px 20px;
-    border-radius: 30px;
-    align-items: center;
-    padding: 5px 5px 5px 5px;
-    font-family: 'Fjalla One', sans-serif;
-}
-p{
-    text-align: justify;
-}
-.container{
-        font-family: "Source Sans Pro",sans-serif;
-        cursor: default;
-        box-sizing: border-box;
-        color: #7E459B;
-        display: inline;
-        display: block;
-}
-.f6 color-text-tertiary{
-    margin: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border: #7e459b solid 5px;
-    padding: 80px 80px 80px 80px;
-}
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  body {
+    padding: 20px;
+    background-image: url(https://blog.emania.com.br/wp-content/uploads/2021/03/pexels-pixabay-33044-scaled.jpg);
+    height: 1280;
+    width: 860;
+  }
+  
+  html {
+    font-size: 1.2rem;
+  }
+  
+  /*medida relativa que vai usar o elemento pai como referência*/
+  /*inclusve a borda tem 600 px;*/
+  .container-em {
+    border: 5px solid #7e459b;
+    margin: 20px 0;
+    width: 600px;
+    font-size: 2em;
+    line-height: 5rem;
+  }
+  
+  .item-em {
+    margin-top: 20px;
+    border: 5px solid rgb(24, 255, 112);
+    width: 70vh;/* 60% da largura da wuewport  */
+    font-size: 2em;
+  }
+  /*o em dobra em relação ao elemento pai mesmo colocando o mesmo valor*/
+  /*medida relativa que vai usar o elemento raiz (html) como referência*/
+  .container-rem {
+    border: 5px solid #7e459b;
+    margin: 20px 0;
+    width: 600px;
+    font-size: 2rem;
+    padding: 30px;
+    line-height: 2.5rem;
+  }
+  /* o REM olha para o elemento raiz do HTML*/
+  .item-rem {
+    margin-top: 20px;
+    border: 5px solid rgb(20, 107, 220);
+    width: 70%;
+    font-size: 2rem;
+    line-height: 4rem;
+    padding: 1rem;
+  }
+  
+ 
