@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aula29.css">
+    <link rel="shortcut icon " href="file:///C:/Users/aninh/OneDrive/Imagens/Saved%20Pictures/logistica%20reversa.jpg.jpg">
+    <title>Minha Cidade de São Paulo</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="hash">
+                <li><a href="https://www.capital.sp.gov.br/">Home</a></li>
+                <li><a href="https://legislacao.prefeitura.sp.gov.br/">Sobre</a></li>
+                <li><a href="https://www.capital.sp.gov.br/cidadao">Prefeitura</a></li>
+        </ul>
+            <h1>São Paulo</h1>
+        </nav>
+    </header>
+    <main>
+        <section class="box1">
+            <article>
+                <p>São Paulo São Paulo é um município brasileiro, <BR>
+                    capital do estado homônimo e principal centro financeiro, corporativo e mercantil da América do Sul.<br>
+                    É a cidade mais populosa do Brasil, do continente americano, da lusofonia e de todo o hemisfério sul</p>
+            </article>
+        </section>
+        <section class="box2">
+            <article>
+                <p>Tem muitos restaurantes, bares, hotéis, municípios, distritos, comércios e shoppings</p>
+            </article>
+        </section>
+        <section class="box3">
+            <p>Temos atrações turísticas também</p>
+        </section>
+        <section>
+            <article>
+                <iframe width="1200" height="615" src="https://www.youtube.com/embed/39eKuBwiOv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>Curiosidades</h2>
+                <li>São Pauto tem:</li>
+                <li>Transito, pessoas, muito trabalho</li>
+                <li>Pessoas querendo relaxar</li>
+                <a id="btn" href="https://centrodepesquisaeformacao.sescsp.org.br/atividade/icones-urbanos-em-sao-paulo">Veja mais</a>
+            </article>
+        </section>
+        <section>
+            <h2>Prefeitura</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZD_N3ogYLTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen heigth="900px" width="900px"></iframe>
+            <p>Aqui temos pessoas, diversidades e peculiaridades de todos os gostos</p>
+        </section>
+    </main>
+    <footer>
+        <script type="text/javascript">
+        
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+
+        </script>
+        <p id="roxo">&copy; todos os direitos reservados, 2021</p>
+    </footer>
+</body>
+</html>

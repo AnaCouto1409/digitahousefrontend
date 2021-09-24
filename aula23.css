@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(255, 152, 16);
+    color: rgb(5, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(file:///C:/Users/aninh/OneDrive/Imagens/Saved%20Pictures/logistica%20reversa.jpg.jpg);
+    background-repeat: no-repeat;
+}
+#id{
+    background-color: black;
+    color: rgb(235, 16, 16);
+    padding: 5px 5px 5 px 5px;
+    border: 5px orange solid;
+    border-radius: 3px solid #7e459b;
+    height: 10px;
+    margin: 10px;
+}
+#caixa-banner{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: orange;
+    font-weight: 3rem;
+    background-color: #7E459B;
+    padding: 8px 20px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Fjalla One', sans-serif;
+}
+p{
+    text-align: justify;
+}
+.container{
+        font-family: "Source Sans Pro",sans-serif;
+        cursor: default;
+        box-sizing: border-box;
+        color: #7E459B;
+        display: inline;
+        display: block;
+}
+.f6 color-text-tertiary{
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: #7e459b solid 5px;
+    padding: 80px 80px 80px 80px;
+}

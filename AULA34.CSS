@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #eaeaea;
+    color: #000;
+  
+    transition:
+      background-color, 0.8s,
+      color, 0.8s;
+  }
+  
+  button:hover {
+    background-color: #1a73e8;
+    color: #fff
+  }
+button{
+    margin: 50px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #7e549b;
+    color: white;
+
+    transform: scale(1.2,2) rotate(-30deg);
+    transform: rotate(40deg);
+}
+div:hover{
+    animation: deslizar 10s normal;
+}
+@keyframes deslizar{
+    0% {opacity: 0%;}
+    50% {opacity: 100%; transform: translateX(400px) rotate(100px);}
+    100%{opacity: 0%;transform: scale(2); }
+}

@@ -1,0 +1,60 @@
+
+.c-user-profile__avatar {
+  height: 14rem;
+  width: 14rem;
+  background-color: #ffa822;
+  background-size: cover;
+  border: 0.5rem solid #ffa822;
+  border-radius: 100%;
+  -ms-high-contrast-adjust: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #7e459b;
+  color: #134e6f;
+  display: grid;
+  font-family: 'Karla', sans-serif;
+  grid-template-columns: 0.25fr 1fr 0.25fr;
+  grid-template-rows: 2rem 1fr 2rem;
+  grid-template-areas:
+    ". .     ."
+    ". panel ."
+    ". .     .";
+  justify-content: center;
+}
+
+.c-user-profile {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.15rem 1rem -0.75rem #134e6f;
+  display: flex;
+  flex-direction: column;
+  grid-area: panel;
+  padding: 2rem;
+  text-align: center;
+}
+
+.c-user-profile__name {
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+.c-user-profile__account-creation-date {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c-user-profile__username {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}

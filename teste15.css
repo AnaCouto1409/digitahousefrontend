@@ -1,0 +1,28 @@
+*{
+    background-color: #ff0066;
+    color: white;  
+    font-family: 'Times New Roman', Times, serif;
+}
+.mein {
+    font-size: 3rem;
+}
+.job-title{
+    font-size: 2rem;
+}
+#high{
+    font-size: 3rem;
+}
+.high3{
+    font-size: 2rem;
+}
+.high4{
+    font-size: 2rem;
+}
+.footer{
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
